@@ -3,6 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "checkPropsChange", {
+  enumerable: true,
+  get: function get() {
+    return _props.checkPropsChange;
+  }
+});
 Object.defineProperty(exports, "extractEventHandlers", {
   enumerable: true,
   get: function get() {
@@ -13,12 +19,6 @@ Object.defineProperty(exports, "getExactEventHandlerName", {
   enumerable: true,
   get: function get() {
     return _event.getExactEventHandlerName;
-  }
-});
-Object.defineProperty(exports, "checkPropsChange", {
-  enumerable: true,
-  get: function get() {
-    return _props.checkPropsChange;
   }
 });
 Object.defineProperty(exports, "isReactComponent", {
